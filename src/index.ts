@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // * Routes
 app.get("/", (req: Request, res: Response) => {
-  return res.send("<h1>Server is Running... 🚀</h1>");
+  return res.send("<h1>Server is Running 🚀</h1>");
 });
 
 app.listen(PORT, () => console.log(`Server is running on PORT ${PORT}`));
